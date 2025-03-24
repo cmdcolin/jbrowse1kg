@@ -96262,6 +96262,21 @@
       },
       "category": ["1000 Genomes", "HMEID"],
       "assemblyNames": ["hg38"]
+    },
+    {
+      "type": "VariantTrack",
+      "trackId": "recurrent_inversions",
+      "name": "Recurrent inversions",
+      "category": ["1000 Genomes", "Inversions"],
+      "metadata": {
+        "source": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/HGSVC2/working/20210917_SSEQplusWHintegrativePhasing_inversionCallset/",
+        "note": "Manually converted from TSV to VCF"
+      },
+      "adapter": {
+        "type": "VcfAdapter",
+        "uri": "https://jbrowse.org/genomes/GRCh38/variants_freeze4inv_sv_inv_hg38_processed_arbigent_filtered_manualDotplot_filtered_PAVgenAdded_expandGT.vcf"
+      },
+      "assemblyNames": ["hg38"]
     }
   ],
   "aggregateTextSearchAdapters": [
